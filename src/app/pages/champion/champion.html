@@ -1,1 +1,27 @@
 <p>champion works!</p>
+
+
+<div class="campeon-formulario">
+    <h2>formulario</h2>
+    <app-add-champion />
+
+
+    
+</div>
+
+<div class="listado-campeon">
+    <app-list-champion/>
+</div>
+
+
+<hr>
+
+<h2><code>animate.leave</code> Binding Example</h2>
+<button type="button" (click)="toggle()">Toggle ElementO</button>
+@if (isShown()) {
+  <div class="leave-container" [animate.leave]="farewell()">
+    <p>Goodbye</p>
+  </div>
+}
+
+

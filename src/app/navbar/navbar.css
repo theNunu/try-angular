@@ -1,24 +1,26 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 15px;
-    overflow: hidden;
-    background-color: #333333;
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  border-radius: 20px;
 }
 
+
+
 ul li {
-  float: left;
-  
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*quitar el subrayado*/
 }
 
 ul li a:hover {
   background-color: #111111;
-  color: white;
-  padding: 14px 16px;
-}
-
-a{
-    display: block;
-    flex: none
 }
