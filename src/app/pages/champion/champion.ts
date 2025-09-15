@@ -16,4 +16,11 @@ export class Champion {
   }
   farewell = signal('leaving');
 
+
+  estaMostrando = signal(false)
+  alternar(){
+    this.estaMostrando.update((estaMostrando) => !estaMostrando)
+  }
+  
+  despedida = signal("hasta-la-proxima")
 }

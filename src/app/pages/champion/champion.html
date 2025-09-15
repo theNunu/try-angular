@@ -25,3 +25,15 @@
 }
 
 
+<hr>
+{{ estaMostrando()}}
+<button type="button" (click)="alternar()">
+    presionar
+</button>
+<div class="abandonar-contenedor" [animate.leave]="despedida()">
+    <h1>waza!!!!!</h1>
+</div>
+
+{{ despedida()}}
+
+

@@ -36,3 +36,28 @@
   transform: translateY(20px);
   transition: opacity 500ms ease-out, transform 500ms ease-out;
 }
+
+/*  ___  ___  ___  ___ LO MIO ___  ____  ____  ___ ___*/
+
+:host {
+  display: block;
+  height: 200px;
+}
+
+.abandonar-contenedor {
+    border: 1px solid red;
+    margin-top: 1em;
+    font-weight: bold;
+
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+    @starting-style {
+    opacity: 0;
+  }
+}
+.hasta-la-proxima {
+      opacity: 0;
+      transform: translateY(20px);
+       transition: opacity 500ms ease-out, transform 500ms ease-out;
+
+}
